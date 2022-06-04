@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.head {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.title-1,
+.title-2,
+.subtitle {
+  text-align: center;
+  font-size: 600;
+}
+
+.title-1 {
+  color: hsl(229, 6%, 66%);
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.title-2 {
+  color: hsl(234, 12%, 34%);
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.container {
+  width: 1200px;
+  margin: 50px auto;
+}
+
+.flexbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  height: 300px;
+  margin: 150px auto;
+}
+
+.card {
+  background-color: hsl(0, 0%, 98%);
+  width: 300px;
+  height: 220px;
+  padding: 25px;
+  box-shadow: 0px 20px 20px hsla(230, 30%, 77%, 0.514);
+  border-radius: 5px;
+  font-size: 12px;
+  color: hsl(229, 6%, 66%);
+}
+
+img {
+  margin-top: 60px;
+  width: 50px;
+  height: auto;
+  float: right;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: hsl(234, 12%, 34%);
+}
+
+.center-card-1 {
+  margin-bottom: 30px;
+  border-top: 5px solid hsl(0, 78%, 62%);
+}
+
+.center-card-2 {
+  border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.edge-card-1 {
+  border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.edge-card-2 {
+  border-top: 5px solid hsl(212, 86%, 64%);
+}
